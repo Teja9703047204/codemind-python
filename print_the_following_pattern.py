@@ -1,3 +1,3 @@
 n=int(input())
-for i in range(n):
-    print((chr(65+i)+" ")*n)
+for i in range(n,0,-1):
+    print((chr(64+i)+" ")*i)
